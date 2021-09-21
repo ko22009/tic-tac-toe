@@ -1,0 +1,6 @@
+.table {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px;
+  grid-column-gap: 20px;
+}

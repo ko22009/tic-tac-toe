@@ -1,0 +1,23 @@
+.field {
+  padding-bottom: 100%;
+  position: relative;
+  background: #74b75f;
+  color: white;
+  font-size: 10vw;
+  &__content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &_enabled {
+    cursor: pointer;
+    &:hover {
+      background: #308b1c;
+    }
+  }
+}
